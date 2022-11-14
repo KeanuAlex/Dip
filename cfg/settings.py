@@ -5,9 +5,9 @@ False - нет, True - да
 """
 
 # Токен сообщества для авторизации
-ACCESS_TOKEN_GROUP = 'vk1.a.JHcTgPotSYS9iOyP7RNuMhSzWcItSyqpd0GF-wVuS6qNyfmbQ60QbFYFwKrUvT1nWZATkFXgBhP0wLWk1zdhasjiXpz74nJ6QDFZUCtDWhIdS_y0nxH7-yCnRlib25LA8XSqkSkHY699CYM32BnMio3_PE4dNjXJjDgGJQ1j5ScIbl3lwd-9PaV02Z3ywYJnZxB8vodI6q9b7yX4P8qnXg'
+ACCESS_TOKEN_GROUP = ''
 # Токен пользователя имеющего права на передачу и чтение фоток ВК
-ACCESS_TOKEN_USER = '958eb5d...2008'
+ACCESS_TOKEN_USER = ''
 
 # Файлы параметров
 LEXICON_FILE_NAME = 'cfg/lexicon.json'  # лексикон чат-бота
