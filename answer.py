@@ -96,7 +96,7 @@ class MessageAnswer:
         _LINE = '-' * 70 + '\n'
         message = _LINE
         message += self.answer_params.get('message_text', '')  # подготовка клавиатуры
-        # data = self.db.get_user()  # получение текущей информации пользователя
+        data = self.db.get_user()  # получение текущей информации пользователя
         data = self.user.data  # получение текущей информации пользователя
         message += self._user_info(data) if data else '\nЛичные данные пользователя не найдены!\n'
         message += _LINE
